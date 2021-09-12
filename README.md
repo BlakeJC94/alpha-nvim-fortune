@@ -5,6 +5,9 @@ the footer of the landing page when using the `dashboard` theme.
 
 Only the `dashboard` theme is supported for now.
 
+Many thanks to `@mhinz`, the original author of `vim-startify` who initially 
+compiled this list of quotes and provided this functionality in `vim-startify`!
+
 ## Quick start
 First follow the instructions at `https://github.com/goolord/alpha-nvim/`. To
 add `alpha-nvim-fortune` with `Packer`, install the packages with the folloing
