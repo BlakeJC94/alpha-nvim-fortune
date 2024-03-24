@@ -67,11 +67,13 @@ end
 
 
 
-local main = function()
-    local max_width = 54
-    local fortune_list = require("alpha.quotes")
+local main = function(options)
+    local max_width = options.max_width or 54
+    local fortune_list = options.quotes or require("alpha.quotes")
+
     local fortune = get_fortune(fortune_list)
     local formatted_fortune = format_fortune(fortune, max_width)
+
     return formatted_fortune
 end
 
