@@ -68,9 +68,9 @@ Additionally, you can customize it to better reflect your style or mood:
 ```lua
 local options = {
     max_width = 69,
-    quotes = { -- Your own list
-        -- {"Quote", '', '- Author'},
-    }
+    -- quotes = { -- Your own list
+    --     -- {"Quote", '', '- Author'},
+    -- }
 }
 
 -- Set footer
