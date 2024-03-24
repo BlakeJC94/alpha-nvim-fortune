@@ -68,6 +68,8 @@ end
 
 
 local main = function(options)
+    options = options or {}
+    
     local max_width = options.max_width or 54
     local fortune_list = options.quotes or require("alpha.quotes")
 
