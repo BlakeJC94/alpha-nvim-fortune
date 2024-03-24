@@ -58,7 +58,7 @@ dashboard.section.buttons.val = {
 }
 
 -- Set footer
-dashboard.section.footer.val = fortune({})
+dashboard.section.footer.val = fortune()
 
 -- Send config to alpha
 alpha.setup(dashboard.opts)
