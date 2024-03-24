@@ -1,5 +1,5 @@
 # alpha-nvim-fortune
-This is a very simple add-on for `alpha-nvim` by `@goolord`. It simple adds a
+This is a very simple add-on for `alpha-nvim` by `@goolord`. It simply adds a
 `fortune()` function for use in the plugin that generates a formatted quote at
 the footer of the landing page when using the `dashboard` theme.
 
@@ -10,7 +10,7 @@ compiled this list of quotes and provided this functionality in `vim-startify`!
 
 ## Quick start
 First follow the instructions at `https://github.com/goolord/alpha-nvim/`. To
-add `alpha-nvim-fortune` with `Packer`, install the packages with the folloing
+add `alpha-nvim-fortune` with `Packer`, install the packages with the following
 lines in your `init.lua`:
 
 ```lua
@@ -58,7 +58,7 @@ dashboard.section.buttons.val = {
 }
 
 -- Set footer
-dashboard.section.footer.val = fortune()
+dashboard.section.footer.val = fortune({})
 
 -- Send config to alpha
 alpha.setup(dashboard.opts)
